@@ -1,0 +1,5 @@
+<app-confirmation [open]="open" [message]="'Would you like to click confirm in this modal?'" [title]="'Confirmation Modal'" (result)="result($event)">
+</app-confirmation>
+
+
+<button class="btn btn-lg btn-block btn-outline-primary" (click)="openModal()"> Open Modal </button>
